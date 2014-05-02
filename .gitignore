@@ -17,3 +17,12 @@
 
 # secret key isn’t exposed in repository
 .secret
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+bundler_stubs/
